@@ -12,7 +12,12 @@ function App() {
         <Button variant="outline-primary">Add Expense</Button>
       </Stack>
       <div style= {{display:"gird", gridTemplateColumns: "repeat(auto-fill,minmax(300px, 1fr))", gap:"1rem", alignItems: "flex-start"}}>
-        <BudgetCard name = "Entertainmnet" amount={200} max={1000}/>
+        <BudgetCard 
+        name = "Entertainment" 
+        gray
+        amount={1200} 
+        max={1000}
+        ></BudgetCard>
       </div>
     </Container>
   );
